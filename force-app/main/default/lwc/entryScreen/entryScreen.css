@@ -1,0 +1,68 @@
+:host {
+    display: block;
+    background-color: #1e1e2f;
+    border-radius: 10px;
+    padding: 1.5rem 2rem 2rem 2rem;
+    color: white;
+}
+
+.img-section {
+    margin-top: 2.5rem;
+}
+
+.img-section img {
+    border-radius: 10px;
+}
+
+.logo {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.dot {
+    font-size: 1.2rem;
+    padding-left: 1rem;
+}
+
+.dot.green {
+    color: rgba(88, 214, 141);
+}
+
+.dot.yellow {
+    color: rgba(255, 202, 40);
+}
+
+.dot.red {
+    color: red;
+}
+
+.description-section {
+    margin-top: 2.5rem;
+}
+
+.description-section .title {
+    font-size: 1rem;
+}
+
+.description-section .subtitle {
+    margin-top: 0.75rem;
+}
+
+.footer-section {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.begin-btn {
+    background: linear-gradient(90deg, rgba(22, 160, 133, 1) 0%, rgba(88, 214, 141, 1) 100%);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+}
