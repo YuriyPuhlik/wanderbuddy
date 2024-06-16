@@ -1,0 +1,43 @@
+<template>
+    <div class="slds-grid slds-wrap slds-grid_vertical-align-start full-height">
+        <div class="audience slds-size_1-of-1 slds-grid slds-wrap slds-grid_vertical-align-start">
+            <div class="slds-col slds-size_1-of-1 slds-text-align_center title screen-head">Audience</div>
+            <div class="slds-col slds-size_1-of-2 slds-text-align_center slds-m-top_medium">
+                Followers </br> <span class="audienceDataValue">50k</span>
+            </div>
+            <div class="slds-col slds-size_1-of-2 slds-text-align_center slds-m-top_medium">
+                Male </br> <span class="audienceDataValue">50k</span>
+            </div>
+            <div class="slds-col slds-size_1-of-2 slds-text-align_center slds-m-top_medium">
+                Avg age </br> <span class="audienceDataValue">50k</span>
+            </div>
+            <div class="slds-col slds-size_1-of-2 slds-text-align_center slds-m-top_medium">
+                Female </br> <span class="audienceDataValue">50k</span>
+            </div>
+        </div>
+        <div class="slds-col slds-size_1-of-1 slds-grid slds-wrap bloggers-overlap">
+            <div class="slds-col slds-size_1-of-1 slds-text-align_center title">Audience Overlap</div>
+            <c-blogger-overlap-card
+                    class="slds-size_1-of-3"
+                    img-src={person1ImageUrl}
+                    name="John Dou"
+                    value="67 %"
+            ></c-blogger-overlap-card>
+            <c-blogger-overlap-card
+                    class="slds-size_1-of-3"
+                    img-src={person2ImageUrl}
+                    name="Alisa Juhre"
+                    value="66 %"
+            ></c-blogger-overlap-card>
+            <c-blogger-overlap-card
+                    class="slds-size_1-of-3"
+                    img-src={person3ImageUrl}
+                    name="Marie Ascqeer"
+                    value="39 %"
+            ></c-blogger-overlap-card>
+        </div>
+        <div class="slds-col slds-size_1-of-1 slds-text-align_center audience-geography">
+            <c-audience-geography></c-audience-geography>
+        </div>
+    </div>
+</template>
