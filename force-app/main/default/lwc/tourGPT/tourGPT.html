@@ -1,22 +1,42 @@
 <template>
-    <div class="slds-grid slds-wrap slds-grid_vertical-align-start full-height">
+    <p class="screen-title">Tour GPT</p>
+    <div class="slds-grid slds-wrap slds-grid_vertical-align-start full-height screen-wrap">
         <div class="tour-props slds-size_1-of-1 slds-grid slds-wrap slds-grid_vertical-align-start">
-            <div class="slds-col slds-size_1-of-1 slds-text-align_center title screen-head">Tour GPT</div>
-            <div class="slds-col slds-size_1-of-1 slds-text-align_left slds-m-top_medium slds-p-left_medium">
-                Destination </br>
-                <span class="property-value"> Portugal </span>
+            <div class="slds-col slds-size_1-of-1 slds-text-align_left slds-m-top_medium trip-input-item">
+                <div class="input">
+                    <p class="label">Destination</p>
+                    <p class="property-value">Portugal</p>
+                </div>
+                <div class="edit-icon">
+                    <lightning-icon icon-name="utility:edit" size="x-small" class="edit-icon"></lightning-icon>
+                </div>
             </div>
-            <div class="slds-col slds-size_1-of-1 slds-text-align_left slds-m-top_medium slds-p-left_medium">
-                Month</br>
-                <span class="property-value"> April </span>
+            <div class="slds-col slds-size_1-of-1 slds-text-align_left slds-m-top_medium trip-input-item">
+                <div class="input">
+                    <p class="label">Month</p>
+                    <p class="property-value">April</p>
+                </div>
+                <div class="edit-icon">
+                    <lightning-icon icon-name="utility:edit" size="x-small" class="edit-icon"></lightning-icon>
+                </div>
             </div>
-            <div class="slds-col slds-size_1-of-1 slds-text-align_left slds-m-top_medium slds-p-left_medium">
-                Number of People </br>
-                <span class="property-value"> 10 </span>
+            <div class="slds-col slds-size_1-of-1 slds-text-align_left slds-m-top_medium trip-input-item">
+                <div class="input">
+                    <p class="label">Number of people</p>
+                    <p class="property-value">10</p>
+                </div>
+                <div class="edit-icon">
+                    <lightning-icon icon-name="utility:edit" size="x-small" class="edit-icon"></lightning-icon>
+                </div>
             </div>
-            <div class="slds-col slds-size_1-of-1 slds-text-align_left slds-m-top_medium slds-p-left_medium">
-                Activities </br>
-                <span class="property-value"> Sightseeing, hiking, bars, sunsets, culture, local food </span>
+            <div class="slds-col slds-size_1-of-1 slds-text-align_left slds-m-top_medium">
+                <p class="label">Activities</p>
+                <div class="activities-wrap">
+                    <div class="activity-tag food">Local Food</div>
+                    <div class="activity-tag bars">Surfing</div>
+                    <div class="activity-tag hiking">Hiking</div>
+                    <div class="activity-tag sunsets">Sunsets</div>
+                </div>
             </div>
         </div>
         <div class="slds-col slds-size_1-of-1 slds-grid slds-wrap probablity">
@@ -25,13 +45,17 @@
             </div>
             <div class="slds-size_1-of-1 slds-text-align_center circle-title">High Probablity to gather 10 people</div>
         </div>
-        <div class="slds-col slds-size_1-of-1 slds-m-top_large slds-p-left_medium recommendations">
-            Recommendations: </br>
+        <div class="slds-col slds-size_1-of-1 slds-m-top_large recommendations-wrap">
+            <p class="label recommendations">Recommendations</p>
             <div class="recommendations-list">
-                <div class="recommendation-item"><span class="recommendation-item-text">Consider adding night
-                        activities</span></div>
-                <div class="recommendation-item"><span class="recommendation-item-text">Include enough time for self
-                        leisure</span></div>
+                <div class="recommendation-item">
+                    <lightning-icon icon-name="utility:light_bulb" size="x-small"></lightning-icon>
+                    <p class="recommendation-item-text">Consider adding night activities</p>
+                </div>
+                <div class="recommendation-item slds-m-top_x-small">
+                    <lightning-icon icon-name="utility:light_bulb" size="x-small"></lightning-icon>
+                    <p class="recommendation-item-text">Include enough time for self leisure</p>
+                </div>
             </div>
         </div>
     </div>
