@@ -1,16 +1,21 @@
 :host {
     display: block;
     background-color: #1e1e2f;
-    padding-top: 1rem;
+    padding-top: 2rem;
     padding-bottom: 1rem;
-    border-radius: 10px;
+    border-radius: 55px;
+    width: 430px;
+    height: 932px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--lwc-fontFamily,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol');
 }
 
-.title {
+.screen-title {
     text-align: center;
     font-size: 16px;
     font-weight: 600;
     color: white;
-    padding-top: 1.25rem;
     padding-bottom: 1.25rem;
 }
