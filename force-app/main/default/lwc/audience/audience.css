@@ -26,6 +26,7 @@
 
 .metric-label {
     color: #AEB6BF;
+    font-size: 15px;
 }
 
 .full-height {
@@ -41,7 +42,11 @@
 }
 
 .audience {
-    /* height: 40%; */
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1.8rem;
 }
 
 .bloggers-overlap {
@@ -49,12 +54,22 @@
 }
 
 .audience-geography {
-    margin-top: 2rem;
+    margin-top: 2.5rem;
 }
 
 .audienceDataValue {
-    font-size: 35px;
+    width: 100px;
+    font-size: 25px;
     font-weight: 600;
+    background-color: #2c2c3e;
+    padding: 0.5rem 0.75rem;
+    border-radius: 20px;
+    margin-top: 0.5rem;
+    box-shadow: 2px 2px 1px black;
+}
+
+.audienceDataValue.followers {
+    color: greenyellow;
 }
 
 .blogger-cards-wrapper {
