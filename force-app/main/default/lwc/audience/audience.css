@@ -65,7 +65,9 @@
     padding: 0.5rem 0.75rem;
     border-radius: 20px;
     margin-top: 0.5rem;
-    box-shadow: 2px 2px 1px black;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 
+                        0 24px 32px rgba(0, 0, 0, 0.2), 
+                        0 32px 48px rgba(0, 0, 0, 0.2);
 }
 
 .audienceDataValue.followers {
