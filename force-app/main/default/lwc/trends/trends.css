@@ -1,11 +1,12 @@
 :host {
+    position: relative;
     display: block;
     background-color: #1e1e2f;
     padding-top: 2rem;
     padding-bottom: 1rem;
     border-radius: 55px;
     width: 430px;
-    height: 960px;
+    height: 1000px;
     color: white;
     font-size: 14px;
     font-weight: 600;

@@ -1,4 +1,5 @@
 :host {
+    position: relative;
     display: block;
     background-color: #1e1e2f;
     padding-top: 2rem;
