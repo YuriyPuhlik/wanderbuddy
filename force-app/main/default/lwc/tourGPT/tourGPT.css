@@ -9,7 +9,7 @@
     color: white;
     font-size: 14px;
     font-weight: 600;
-    font-family: var(--lwc-fontFamily,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol');
+    font-family: var(--lwc-fontFamily, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol');
 }
 
 .screen-title {
@@ -98,6 +98,7 @@
     width: 200px;
     margin: 15px auto;
     background-color: mediumseagreen;
+    box-shadow: 0px 0px 10px 2px mediumseagreen;
 }
 
 .circle-number {
