@@ -15,7 +15,7 @@ export default class DestinationTrends extends LightningElement {
                 this.chart = new Chart(ctx, {
                     type: 'bar',
                     data: {
-                        labels: ['USA', 'Canada', 'Brazil', 'UK', 'Australia'],
+                        labels: ['Costa Rica', 'Mexico', 'Japan', 'Portugal', 'Spain'],
                         datasets: [{
                             label: 'Number of Visitors',
                             data: [150, 120, 100, 90, 80],
