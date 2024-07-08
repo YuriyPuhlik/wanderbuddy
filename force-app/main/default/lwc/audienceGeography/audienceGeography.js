@@ -2,7 +2,7 @@ import { LightningElement, track } from 'lwc';
 import { loadScript } from 'lightning/platformResourceLoader';
 import CHARTJS from '@salesforce/resourceUrl/ChartJs';
 
-export default class DestinationTrends extends LightningElement {
+export default class AudienceGeography extends LightningElement {
     @track chart;
 
     renderedCallback() {
@@ -15,7 +15,7 @@ export default class DestinationTrends extends LightningElement {
                 this.chart = new Chart(ctx, {
                     type: 'bar',
                     data: {
-                        labels: ['Costa Rica', 'Mexico', 'Japan', 'Portugal', 'Spain'],
+                        labels: ['USA', 'Canada', 'Brazil', 'UK', 'Australia'],
                         datasets: [{
                             label: 'Number of Visitors',
                             data: [150, 120, 100, 90, 80],

@@ -1,27 +1,35 @@
 :host {
+    position: relative;
     display: block;
     background-color: #1e1e2f;
-    border-radius: 10px;
-    padding: 1.5rem 2rem 2rem 2rem;
+    border-radius: 40px;
+    width: 430px;
+    height: 767px;
     color: white;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--lwc-fontFamily,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol');
 }
 
-.img-section {
-    margin-top: 2.5rem;
+.header-section {
+    position: absolute;
+    top: 4.5rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .img-section img {
-    border-radius: 10px;
+    border-radius: 40px;
 }
 
 .logo {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 600;
+    text-align: center;
 }
 
 .dot {
-    font-size: 1.2rem;
-    padding-left: 1rem;
+    font-size: 1.4rem;
 }
 
 .dot.green {
@@ -30,10 +38,12 @@
 
 .dot.yellow {
     color: rgba(255, 202, 40);
+    padding-left: 1rem;
 }
 
 .dot.red {
     color: red;
+    padding-left: 1rem;
 }
 
 .description-section {

@@ -1,0 +1,60 @@
+<template>
+    <p class="screen-title">Audience</p>
+    <div class="slds-grid slds-wrap slds-grid_vertical-align-start full-height">
+        <div class="audience">
+            <div class="metrics-col slds-text-align_center">
+                <p class="metric-label">Followers</p>
+                <p class="audienceDataValue followers">60k</p>
+            </div>
+            <div class="metrics-col slds-text-align_center">
+                <p class="metric-label">Male</p>
+                <p class="audienceDataValue">22k</p>
+            </div>
+            <div class="metrics-col slds-text-align_center">
+                <p class="metric-label">Female</p>
+                <p class="audienceDataValue">38k</p>
+            </div>
+        </div>
+        <div class="audience">
+            <div class="metrics-col slds-text-align_center">
+                <p class="metric-label">Avg. age</p>
+                <p class="audienceDataValue">25</p>
+            </div>
+            <div class="metrics-col slds-text-align_center">
+                <p class="metric-label">Growth</p>
+                <p class="audienceDataValue">+1.5k</p>
+            </div>
+            <div class="metrics-col slds-text-align_center">
+                <p class="metric-label">Tour Views</p>
+                <p class="audienceDataValue">25k</p>
+            </div>
+        </div>
+        <div class="slds-col slds-size_1-of-1 audience-geography">
+            <c-audience-geography></c-audience-geography>
+        </div>
+        <div class="slds-col slds-size_1-of-1 slds-grid slds-wrap bloggers-overlap">
+            <div class="slds-col slds-size_1-of-1 title">Shared Audience</div>
+            <div class="blogger-cards-wrapper">
+                <c-blogger-overlap-card
+                        class="slds-size_1-of-3"
+                        img-src={person1ImageUrl}
+                        name="John Dou"
+                        value="67 %"
+                ></c-blogger-overlap-card>
+                <c-blogger-overlap-card
+                        class="slds-size_1-of-3"
+                        img-src={person2ImageUrl}
+                        name="Alisa Juhre"
+                        value="66 %"
+                ></c-blogger-overlap-card>
+                <c-blogger-overlap-card
+                        class="slds-size_1-of-3"
+                        img-src={person3ImageUrl}
+                        name="Marie Ascqeer"
+                        value="39 %"
+                ></c-blogger-overlap-card>
+            </div>
+        </div>
+        <c-bottom-bar></c-bottom-bar>
+    </div>
+</template>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>audience</members>
+		<members>audienceGeography</members>
+		<members>bloggerOverlapCard</members>
+		<members>tourGPT</members>
+		<name>LightningComponentBundle</name>
+	</types>
+	<types>
+		<members>Person1</members>
+		<members>Person2</members>
+		<members>Person3</members>
+		<name>StaticResource</name>
+	</types>
+	<version>60.0</version>
+</Package>

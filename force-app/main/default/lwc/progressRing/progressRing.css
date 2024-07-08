@@ -1,0 +1,16 @@
+circle {
+    position: absolute;
+    fill: transparent;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    left: 0;
+    top: 0;
+}
+
+circle:nth-child(1) {
+    stroke: rgb(0, 109, 204, 0.3);
+}
+
+circle:nth-child(2) {
+    stroke: rgb(0, 109, 204);
+}
