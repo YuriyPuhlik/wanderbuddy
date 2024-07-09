@@ -1,0 +1,35 @@
+<template>
+    <div class="header-section">
+        <div class="logo-container">
+            <div class="logo">
+                <p class="title">WanderBuddy</p>
+                <p>
+                    <span class="dot green">•</span>
+                    <span class="dot yellow">•</span>
+                    <span class="dot red">•</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <img src={logoUrl}>
+    <div class="subtitle">
+        <p>People are already waiting for you in your next destination!</p>
+    </div>
+    <div class="input-section">
+        <p class="label">Destination</p>
+        <input type="text" placeholder="Destination" class="destination-input" />
+        <div class="date-inputs">
+            <div class="date-input-block">
+                <p class="label">Start Date</p>
+                <input type="date" class="date-input" placeholder="Start Date" />
+            </div>
+            <div class="date-input-block">
+                <p class="label">End Date</p>
+                <input type="date" class="date-input" placeholder="End Date" />
+            </div>
+        </div>
+    </div>
+    <div class="footer-section">
+        <button class="begin-btn">Start</button>
+    </div>
+</template>

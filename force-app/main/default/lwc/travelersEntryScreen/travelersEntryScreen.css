@@ -1,0 +1,106 @@
+:host {
+    position: relative;
+    display: block;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 1px solid gray;
+    border-radius: 55px;
+    width: 430px;
+    height: 932px;
+    font-size: 14px;
+    font-family: var(--lwc-fontFamily,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol');
+}
+
+.header-section {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.title {
+    font-size: 28px;
+    color: #1A5276;
+}
+
+.dot {
+    font-size: 1.4rem;
+}
+
+.dot.green {
+    color: #17A589;
+}
+
+.dot.yellow {
+    color: rgba(255, 202, 40);
+    padding-left: 1rem;
+}
+
+.dot.red {
+    color: red;
+    padding-left: 1rem;
+}
+
+.input-section {
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+    padding: 0 2rem;
+}
+
+.destination-input, .date-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.date-inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.75rem;
+}
+
+.date-input-block {
+    width: 48%;
+}
+
+.label {
+    margin-bottom: 0.25rem;
+    margin-left: 0.25rem;
+    color: gray;
+}
+
+.footer-section {
+    width: 100%;
+    padding: 0 2rem;
+    margin-top: 3rem;
+}
+
+.begin-btn {
+    background: #17A589;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.subtitle {
+    padding: 0 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
