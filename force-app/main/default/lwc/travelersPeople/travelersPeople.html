@@ -1,0 +1,106 @@
+<template>
+    <div class="header-section">
+        <div class="logo-container">
+            <div class="logo">
+                <p class="title">People</p>
+                <p>
+                    <span class="dot green">•</span>
+                    <span class="dot yellow">•</span>
+                    <span class="dot red">•</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="activities-filter">
+        <p class="label">Activities</p>
+        <lightning-input type="search" class="place-input" placeholder="Find people by activity" variant="label-hidden"></lightning-input>
+        <div class="activities-wrap">
+            <div class="activity-tag food">Lisbon</div>
+            <div class="activity-tag hiking">Porto</div>
+            <div class="activity-tag bars">Cabo Da Roca</div>
+            <div class="activity-tag hiking">Castles</div>
+            <div class="activity-tag sunsets">Surfing</div>
+            <div class="activity-tag food">Local Food</div>
+            <div class="activity-tag hiking">Hiking</div>
+            <div class="activity-tag sunsets">Sunsets</div>
+        </div>
+    </div>
+    <!--div class="trip-info">
+        <div class="destination">
+            <lightning-icon icon-name="utility:checkin" size="x-small"></lightning-icon>
+            <p>Lisbon, Portugal</p>
+        </div>
+        <div class="dates">
+            <lightning-icon icon-name="utility:event" size="x-small"></lightning-icon>
+            <p>Jul 17 - Jul 24</p>
+        </div>
+    </div-->
+    <!--div class="menu-panel">
+        <div class="menu-item people">
+            <lightning-icon icon-name="utility:people" size="small"></lightning-icon>
+            <p>People</p>
+        </div>
+        <div class="menu-item costs">
+            <lightning-icon icon-name="utility:moneybag" size="small"></lightning-icon>
+            <p>Costs Share</p>
+        </div>
+        <div class="menu-item events">
+            <lightning-icon icon-name="utility:event" size="small"></lightning-icon>
+            <p>Events</p>
+        </div>
+    </div-->
+    <div class="people-list">
+        <div class="people-card">
+            <img src={person2ImageUrl}>
+            <p class="name">Emily, 26</p>
+            <p class="person-dates">Jul 11 - Jul 16</p>
+        </div>
+        <div class="people-card">
+            <img src={person1ImageUrl}>
+            <p class="name">Mark, 33</p>
+            <p class="person-dates">Jul 13 - Jul 15</p>
+        </div>
+        <div class="people-card">
+            <img src={person3ImageUrl}>
+            <p class="name">Andrea, 28</p>
+            <p class="person-dates">Jul 11 - Jul 16</p>
+        </div>
+        <div class="people-card">
+            <img src={person2ImageUrl}>
+            <p class="name">Emily, 26</p>
+            <p class="person-dates">Jul 11 - Jul 16</p>
+        </div>
+        <div class="people-card">
+            <img src={person1ImageUrl}>
+            <p class="name">Mark, 33</p>
+            <p class="person-dates">Jul 13 - Jul 15</p>
+        </div>
+        <div class="people-card">
+            <img src={person3ImageUrl}>
+            <p class="name">Andrea, 28</p>
+            <p class="person-dates">Jul 11 - Jul 16</p>
+        </div>
+        <div class="people-card">
+            <img src={person2ImageUrl}>
+            <p class="name">Emily, 26</p>
+            <p class="person-dates">Jul 11 - Jul 16</p>
+        </div>
+        <div class="people-card">
+            <img src={person1ImageUrl}>
+            <p class="name">Mark, 33</p>
+            <p class="person-dates">Jul 13 - Jul 15</p>
+        </div>
+        <div class="people-card">
+            <img src={person3ImageUrl}>
+            <p class="name">Andrea, 28</p>
+            <p class="person-dates">Jul 11 - Jul 16</p>
+        </div>
+    </div>
+    <div class="footer-section">
+        <button class="find-btn">
+            <lightning-icon icon-name="utility:sparkles" size="small"></lightning-icon>
+            <span>Find me the best match with AI</span>
+        </button>
+    </div>
+</template>

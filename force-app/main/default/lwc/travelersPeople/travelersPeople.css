@@ -1,0 +1,222 @@
+:host {
+    position: relative;
+    display: block;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    border: 1px solid gray;
+    border-radius: 55px;
+    width: 430px;
+    height: 932px;
+    font-size: 14px;
+    font-family: var(--lwc-fontFamily,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol');
+}
+
+.header-section {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.title {
+    color: #1A5276;
+    font-size: 24px;
+}
+
+.dot {
+    font-size: 20px;
+}
+
+.dot.green {
+    color: #17A589;
+}
+
+.dot.yellow {
+    color: rgba(255, 202, 40);
+    padding-left: 1rem;
+}
+
+.dot.red {
+    color: red;
+    padding-left: 1rem;
+}
+
+.trip-info {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.destination {
+    border-bottom: 1px solid lightgray;
+}
+
+.destination, .dates {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    flex: 1;
+    padding: 0.75rem 1rem;
+}
+
+.dates p {
+    padding-top: 2px;
+}
+
+.trip-info lightning-icon {
+    --sds-c-icon-color-foreground-default: #1A5276;
+}
+
+.menu-panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.25rem 1.5rem;
+}
+
+.menu-item.people {
+    border-bottom: 3px solid #17A589;
+}
+
+.menu-item.people lightning-icon {
+    --sds-c-icon-color-foreground-default: #17A589;
+}
+
+.menu-item.costs lightning-icon {
+    --sds-c-icon-color-foreground-default: orange;
+}
+
+.menu-item.events lightning-icon {
+    --sds-c-icon-color-foreground-default: #E74C3C;
+}
+
+.people-list {
+    display: flex;
+    gap: 1.5rem 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.people-card {
+    /* border: 1px solid lightgray; */
+    /* border-radius: 10px; */
+    /* padding: 1rem; */
+    text-align: center;
+}
+
+.people-card img {
+    width: 90px;
+    border-radius: 50%;
+}
+
+.people-card .name {
+    font-weight: bold;
+    margin-top: 0.25rem;
+}
+
+.people-card .person-dates {
+    font-size: 13px;
+    color: gray;
+}
+
+.activities-filter {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px dashed gray;
+}
+
+.activities-wrap {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    /* justify-content: center; */
+}
+
+.activity-tag {
+    padding: 0.125rem 0.8rem;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+.activity-tag.food {
+    background-color: #2E86C1;
+}
+
+.activity-tag.hiking {
+    background-color: #17A589;
+}
+
+.activity-tag.bars {
+    background-color: #FA5F55;
+}
+
+.activity-tag.sunsets {
+    background-color: #F39C12;
+}
+
+.img-wrap {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.filters {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.label {
+    margin-bottom: 0.25rem;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.footer-section {
+    padding: 0 2rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.find-btn {
+    background: #17A589;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.find-btn lightning-icon {
+    --sds-c-icon-color-foreground-default: white;
+    margin-right: 0.75rem;
+}
