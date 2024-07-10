@@ -248,3 +248,12 @@
     font-size: 12px;
     background-color: #F2F4F4;
 }
+
+.activities-label {
+    display: flex;
+    justify-content: space-between;
+}
+
+.activities-label lightning-icon {
+    padding-right: 0.5rem;
+}
