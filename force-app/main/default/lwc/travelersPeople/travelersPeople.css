@@ -53,23 +53,28 @@
 .trip-info {
     border: 1px solid lightgray;
     border-radius: 10px;
-    margin-right: 2rem;
-    margin-left: 2rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
     margin-top: 1rem;
     font-size: 15px;
     display: flex;
 }
 
-.destination {
-    /* border-bottom: 1px solid lightgray; */
-}
-
 .destination, .dates {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 0.8rem;
     flex: 1;
     padding: 0.5rem 1rem;
+}
+
+.destination {
+    padding-right: 0.5rem;
+}
+
+.dates {
+    padding-left: 0.5rem;
 }
 
 .dates p {
