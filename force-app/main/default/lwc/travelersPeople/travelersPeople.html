@@ -3,18 +3,47 @@
         <div class="logo-container">
             <div class="logo">
                 <p class="title">People</p>
-                <p>
-                    <span class="dot green">•</span>
-                    <span class="dot yellow">•</span>
-                    <span class="dot red">•</span>
-                </p>
             </div>
         </div>
     </div>
-    
+    <div class="trip-info">
+        <div class="destination">
+            <lightning-icon icon-name="utility:checkin" size="x-small"></lightning-icon>
+            <p>Lisbon, Portugal</p>
+        </div>
+        <div class="dates">
+            <lightning-icon icon-name="utility:event" size="x-small"></lightning-icon>
+            <p>Jul 17 - Jul 24</p>
+        </div>
+    </div>
+    <div class="filters-container">
+    <!--div class="filters">
+        <div class="filter age">
+            <p class="label">Age</p>
+            <div class="age-options">
+                <div class="age-option">18-25</div>
+                <div class="age-option">25-30</div>
+                <div class="age-option">30-40</div>
+                <div class="age-option">40+</div>
+            </div>
+        </div>
+        <div class="filter gender">
+            <p class="label">Gender</p>
+            <div class="gender-options">
+                <div class="gender-option">Male</div>
+                <div class="gender-option">Female</div>
+            </div>
+        </div>
+        <div class="filter language">
+            <p class="label">Language</p>
+            <div class="language-options">
+                <div class="language-option">English</div>
+            </div>
+        </div>
+    </div-->
     <div class="activities-filter">
         <p class="label">Activities</p>
-        <lightning-input type="search" class="place-input" placeholder="Find people by activity" variant="label-hidden"></lightning-input>
+        <!--lightning-input type="search" class="place-input" placeholder="Find people by activity" variant="label-hidden"></lightning-input-->
         <div class="activities-wrap">
             <div class="activity-tag food">Lisbon</div>
             <div class="activity-tag hiking">Porto</div>
@@ -26,16 +55,7 @@
             <div class="activity-tag sunsets">Sunsets</div>
         </div>
     </div>
-    <!--div class="trip-info">
-        <div class="destination">
-            <lightning-icon icon-name="utility:checkin" size="x-small"></lightning-icon>
-            <p>Lisbon, Portugal</p>
-        </div>
-        <div class="dates">
-            <lightning-icon icon-name="utility:event" size="x-small"></lightning-icon>
-            <p>Jul 17 - Jul 24</p>
-        </div>
-    </div-->
+</div>
     <!--div class="menu-panel">
         <div class="menu-item people">
             <lightning-icon icon-name="utility:people" size="small"></lightning-icon>
@@ -50,6 +70,11 @@
             <p>Events</p>
         </div>
     </div-->
+    <p class="dots">
+        <span class="dot green">•</span>
+        <span class="dot yellow">•</span>
+        <span class="dot red">•</span>
+    </p>
     <div class="people-list">
         <div class="people-card">
             <img src={person2ImageUrl}>
