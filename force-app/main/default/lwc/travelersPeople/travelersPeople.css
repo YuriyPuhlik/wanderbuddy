@@ -196,6 +196,8 @@
     padding: 1rem 2rem;
     margin-top: 1rem;
     background: rgb(133, 146, 158, 0.1);
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
 }
 
 .filters {
@@ -260,5 +262,5 @@
 }
 
 .activities-label lightning-icon {
-    padding-right: 0.5rem;
+    padding-right: 0.6rem;
 }
