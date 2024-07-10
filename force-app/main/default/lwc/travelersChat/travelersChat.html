@@ -1,0 +1,40 @@
+<template>
+    <div class="chat-container" style={chatBackgroundStyle}>
+        <div class="header-section">
+            <lightning-icon icon-name="utility:back" size="x-small" class="back-btn"></lightning-icon>
+            <div class="profile-section">
+                <img src={person1ImageUrl}/>
+                <div class="profile-info">
+                    <p class="name">Mark, <span class="age">26</span></p>
+                    <p class="trip-info">In Lisbon on Jul 13 - Jul 15</p>
+                </div>
+            </div>
+        </div>
+        <div class="content-section">
+            <div class="common-destonation-proposal">
+                <div class="msg-text">
+                    <p>You and Mark have</p>
+                    <p class="destination">4 common interests</p> 
+                    <p>in Lisbon!</p>
+                </div>
+                <p class="tap-text">Tap to invite!</p>
+                <p class="dots">
+                    <span class="dot green">•</span>
+                    <span class="dot yellow">•</span>
+                    <span class="dot red">•</span>
+                </p>
+                <div class="activities-wrap">
+                    <div class="activity-tag food">Sightseeing</div>
+                    <div class="activity-tag hiking">Museums</div>
+                    <div class="activity-tag bars">Cabo Da Roca</div>
+                    <div class="activity-tag sunsets">Sunsets</div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-section">
+            <lightning-icon icon-name="utility:emoji" size="small" class="send-btn"></lightning-icon>
+            <input type="text" placeholder="Type message..." class="msg-input"></input>
+            <lightning-icon icon-name="utility:send" size="x-small" class="send-btn"></lightning-icon>
+        </div>
+    </div>
+</template>

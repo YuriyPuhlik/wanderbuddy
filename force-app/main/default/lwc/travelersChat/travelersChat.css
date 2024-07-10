@@ -1,0 +1,212 @@
+:host {
+    position: relative;
+    display: block;
+    border: 1px solid gray;
+    border-radius: 55px;
+    width: 430px;
+    height: 932px;
+    font-size: 14px;
+    font-family: var(--lwc-fontFamily,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol');
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #17A589;
+    color: white;
+    padding: 1rem 2rem;
+    border-top-left-radius: 55px;
+    border-top-right-radius: 55px;
+    border: 0;
+    padding-top: 1.5rem;
+}
+
+.header-section .back-btn {
+    margin-right: 1.25rem;
+    --sds-c-icon-color-foreground-default: white;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.profile-info {
+    line-height: 16px;
+}
+
+.name, .age {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.job {
+    font-size: 12px;
+}
+
+.profile-section img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 55px;
+    /* background: #F7F9F9; */
+}
+
+.content-section {
+    flex: 1;
+}
+
+.common-destonation-proposal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 2rem;
+    border-radius: 15px;
+    border: 2px dashed rgb(23, 165, 137);
+    margin: auto;
+    margin-top: 40%;
+    background-color: white;
+}
+
+.common-destonation-proposal .msg-text {
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.msg-text .destination {
+    font-weight: 600;
+    margin-left: 0.25rem;
+}
+
+.tap-text {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    color: darkblue;
+}
+
+.footer-section {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    background: white;
+}
+
+.msg-input {
+    flex: 1;
+    height: 30px;
+    padding: 0.35rem 0.75rem;
+    border: none;
+    font-size: 1rem;
+}
+
+.send-btn {
+    --sds-c-icon-color-foreground-default: rgb(23, 165, 137);
+}
+
+.common-destonation-proposal img {
+    border-radius: 10px;
+}
+
+.proposal-msg-wrapper {
+    width: 60%;
+    border: 1px solid rgb(23, 165, 137);
+    padding: 0.5rem 0.75rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: 1rem;
+    background-color: #D5F5E3;
+}
+
+.chat-msg {
+    font-size: 14px;
+}
+
+.proposal-msg-wrapper img {
+    border-radius: 10px;
+    margin-top: 0.25rem;
+}
+
+.dots {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.dot {
+    font-size: 1rem;
+}
+
+.dot.green {
+    color: #17A589;
+}
+
+.dot.yellow {
+    color: #F1C40F;
+}
+
+.dot.red {
+    color: #E74C3C;
+}
+
+.footer-section lightning-icon ::slotted(svg) {
+    width: 20px;
+    height: 20px;
+}
+
+.trip-info {
+    margin-top: 0.25rem;
+}
+
+.activities-wrap {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+    justify-content: center;
+}
+
+.activity-tag {
+    /*border: 1px solid lightgray;
+    padding: 0.25rem 0.5rem;
+    border-radius: 10px;
+    font-size: 12px;
+    background-color: #F2F4F4;*/
+    padding: 0.125rem 0.8rem;
+    border-radius: 10px;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+}
+
+.activity-tag.food {
+    background-color: #2E86C1;
+}
+
+.activity-tag.hiking {
+    background-color: #17A589;
+}
+
+.activity-tag.bars {
+    background-color: #FA5F55;
+}
+
+.activity-tag.sunsets {
+    background-color: #F39C12;
+}
