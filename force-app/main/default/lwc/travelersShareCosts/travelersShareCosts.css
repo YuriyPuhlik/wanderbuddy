@@ -1,0 +1,236 @@
+:host {
+    position: relative;
+    display: block;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    border: 1px solid gray;
+    border-radius: 55px;
+    width: 430px;
+    height: 932px;
+    font-size: 14px;
+    font-family: var(--lwc-fontFamily,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol');
+}
+
+.header-section {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.title {
+    color: #1A5276;
+    font-size: 24px;
+}
+
+.dots {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.dot {
+    font-size: 22px;
+}
+
+.dot.green {
+    color: #17A589;
+}
+
+.dot.yellow {
+    color: rgba(255, 202, 40);
+    padding-left: 1rem;
+}
+
+.dot.red {
+    color: red;
+    padding-left: 1rem;
+}
+
+.trip-info {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    font-size: 15px;
+    display: flex;
+}
+
+.destination, .dates {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    flex: 1;
+    padding: 0.5rem 1rem;
+}
+
+.destination {
+    padding-right: 0.5rem;
+}
+
+.dates {
+    padding-left: 0.5rem;
+}
+
+.dates p {
+    padding-top: 2px;
+}
+
+.trip-info lightning-icon {
+    --sds-c-icon-color-foreground-default: #1A5276;
+}
+
+.costs-filters {
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    background: rgb(133, 146, 158, 0.1);
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.costs-filters .filter {
+    text-align: center;
+    font-size: 13px;
+    padding: 0.25rem 0.75rem;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background: #FDFEFE;
+    min-width: 80px;
+    padding-top: 0.5rem;
+}
+
+.costs-filters .filter lightning-icon {
+    transform: scale(1.25);
+}
+
+.icon-accommodation {
+    --sds-c-icon-color-foreground-default: #2E86C1;
+}
+
+.icon-transport {
+    --sds-c-icon-color-foreground-default: #F39C12;
+}
+
+.icon-activity {
+    --sds-c-icon-color-foreground-default: #17A589;
+}
+
+.icon-food {
+    --sds-c-icon-color-foreground-default: #FA5F55;
+}
+
+.filter-name {
+    margin-top: 0.25rem;
+}
+
+.people {
+    margin: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.people-card {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.people-card.first {
+    padding-top: 1rem;
+    border-top: 1px solid lightgray;
+}
+
+.people-card.last {
+    border: none;
+}
+
+.people-card img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.person-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.share-items {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-top: 0.125rem;
+}
+
+.propose-btn {
+    background: #17A589;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-weight: 600;
+    width: 100%;
+    padding: 0.25rem 0.75rem;
+}
+
+.budget-info {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 13px;
+}
+
+.connect-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.person-details .name {
+    font-weight: 600;
+}
+
+.person-dates {
+    color: gray;
+}
+
+.budget-info .value {
+    font-weight: 600;
+}
+
+.dot {
+    font-size: 22px;
+}
+
+.dot.green {
+    color: #17A589;
+}
+
+.dot.yellow {
+    color: rgba(255, 202, 40);
+    padding-left: 1rem;
+}
+
+.dot.red {
+    color: red;
+    padding-left: 1rem;
+}
+
+.people-label {
+    margin-left: 2rem;
+    font-size: 20px;
+    font-weight: 600;
+}

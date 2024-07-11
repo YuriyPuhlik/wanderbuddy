@@ -116,8 +116,12 @@
     font-size: 1rem;
 }
 
-.send-btn {
+.send-btn, .emoji-btn {
     --sds-c-icon-color-foreground-default: rgb(23, 165, 137);
+}
+
+.send-btn {
+    transform: scale(1.25);
 }
 
 .common-destonation-proposal img {

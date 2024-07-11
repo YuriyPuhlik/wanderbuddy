@@ -1,0 +1,150 @@
+<template>
+    <div class="header-section">
+        <div class="logo-container">
+            <div class="logo">
+                <p class="title">Share Costs</p>
+            </div>
+        </div>
+    </div>
+    <div class="trip-info">
+        <div class="destination">
+            <lightning-icon icon-name="utility:checkin" size="x-small"></lightning-icon>
+            <p>Lisbon, Portugal</p>
+        </div>
+        <div class="dates">
+            <lightning-icon icon-name="utility:event" size="x-small"></lightning-icon>
+            <p>Jul 17 - Jul 24</p>
+        </div>
+    </div>
+    <div class="costs-filters">
+        <div class="filter transport">
+            <lightning-icon icon-name="utility:travel_and_places" size="x-small" class="icon-transport"></lightning-icon>
+            <p class="filter-name">Transport</p>
+        </div>
+        <div class="filter accomodation">
+            <lightning-icon icon-name="utility:home" size="x-small" class="icon-accommodation"></lightning-icon>
+            <p class="filter-name">Hotel</p>
+        </div>
+        <div class="filter activities">
+            <lightning-icon icon-name="utility:flow" size="x-small" class="icon-activity"></lightning-icon>
+            <p class="filter-name">Activities</p>
+        </div>
+        <div class="filter food">
+            <lightning-icon icon-name="utility:food_and_drink" size="x-small" class="icon-food"></lightning-icon>
+            <p class="filter-name">Food</p>
+        </div>
+    </div>
+    <p class="dots">
+        <span class="dot green">•</span>
+        <span class="dot yellow">•</span>
+        <span class="dot red">•</span>
+    </p>
+    <p class="people-label">People</p>
+    <div class="people">
+        <div class="people-card first">
+            <div class="person-info">
+                <img src={person2ImageUrl}>
+                <div class="person-details">
+                    <p class="name">Emily, 26</p>
+                    <div class="share-items">
+                        <lightning-icon icon-name="utility:home" size="x-small" class="icon-accommodation"></lightning-icon>
+                        <lightning-icon icon-name="utility:travel_and_places" size="x-small" class="icon-transport"></lightning-icon>
+                        <lightning-icon icon-name="utility:flow" size="x-small" class="icon-activity"></lightning-icon>
+                    </div>
+                    <p class="person-dates">Jul 11 - Jul 16</p>
+                    <div class="budget-info">
+                        <p class="label">Total budget:</p>
+                        <p class="value">$800</p>
+                    </div>
+                </div>
+            </div>
+            <div class="connect-wrap">
+                <button class="propose-btn">Send proposal</button>
+            </div>
+        </div>
+        <div class="people-card">
+            <div class="person-info">
+                <img src={person1ImageUrl}>
+                <div class="person-details">
+                    <p class="name">Mark, 33</p>
+                    <div class="share-items">
+                        <lightning-icon icon-name="utility:travel_and_places" size="x-small" class="icon-transport"></lightning-icon>
+                        <lightning-icon icon-name="utility:flow" size="x-small" class="icon-activity"></lightning-icon>
+                        <lightning-icon icon-name="utility:food_and_drink" size="x-small" class="icon-food"></lightning-icon>
+                    </div>
+                    <p class="person-dates">Jul 13 - Jul 15</p>
+                    <div class="budget-info">
+                        <p class="label">Total budget:</p>
+                        <p class="value">$1000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="connect-wrap">
+                <button class="propose-btn">Send proposal</button>
+            </div>
+        </div>
+        <div class="people-card">
+            <div class="person-info">
+                <img src={person3ImageUrl}>
+                    <div class="person-details">
+                    <p class="name">Andrea, 28</p>
+                    <div class="share-items">
+                        <lightning-icon icon-name="utility:home" size="x-small" class="icon-accommodation"></lightning-icon>
+                        <lightning-icon icon-name="utility:flow" size="x-small" class="icon-activity"></lightning-icon>
+                        <lightning-icon icon-name="utility:food_and_drink" size="x-small" class="icon-food"></lightning-icon>
+                    </div>
+                    <p class="person-dates">Jul 11 - Jul 16</p>
+                    <div class="budget-info">
+                        <p class="label">Total budget:</p>
+                        <p class="value">$750</p>
+                    </div>
+                </div>
+            </div>
+            <div class="connect-wrap">
+                <button class="propose-btn">Send proposal</button>
+            </div>
+        </div>
+        <div class="people-card">
+            <div class="person-info">
+                <img src={person2ImageUrl}>
+                <div class="person-details">
+                    <p class="name">Emily, 26</p>
+                    <div class="share-items">
+                        <lightning-icon icon-name="utility:home" size="x-small" class="icon-accommodation"></lightning-icon>
+                        <lightning-icon icon-name="utility:travel_and_places" size="x-small" class="icon-transport"></lightning-icon>
+                        <lightning-icon icon-name="utility:flow" size="x-small" class="icon-activity"></lightning-icon>
+                    </div>
+                    <p class="person-dates">Jul 11 - Jul 16</p>
+                    <div class="budget-info">
+                        <p class="label">Total budget:</p>
+                        <p class="value">$800</p>
+                    </div>
+                </div>
+            </div>
+            <div class="connect-wrap">
+                <button class="propose-btn">Send proposal</button>
+            </div>
+        </div>
+        <div class="people-card last">
+            <div class="person-info">
+                <img src={person1ImageUrl}>
+                <div class="person-details">
+                    <p class="name">Mark, 33</p>
+                    <div class="share-items">
+                        <lightning-icon icon-name="utility:travel_and_places" size="x-small" class="icon-transport"></lightning-icon>
+                        <lightning-icon icon-name="utility:flow" size="x-small" class="icon-activity"></lightning-icon>
+                        <lightning-icon icon-name="utility:food_and_drink" size="x-small" class="icon-food"></lightning-icon>
+                    </div>
+                    <p class="person-dates">Jul 13 - Jul 15</p>
+                    <div class="budget-info">
+                        <p class="label">Total budget:</p>
+                        <p class="value">$1000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="connect-wrap">
+                <button class="propose-btn">Send proposal</button>
+            </div>
+        </div>
+    </div>
+</template>
