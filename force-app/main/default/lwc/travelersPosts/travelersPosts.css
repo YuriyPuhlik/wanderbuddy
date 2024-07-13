@@ -1,0 +1,200 @@
+:host {
+    position: relative;
+    display: block;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    border: 1px solid gray;
+    border-radius: 55px;
+    width: 430px;
+    height: 932px;
+    font-size: 14px;
+    font-family: var(--lwc-fontFamily,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol');
+}
+
+.header-section {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.title {
+    color: #1A5276;
+    font-size: 24px;
+}
+
+.dots {
+    text-align: center;
+    margin: 0.75rem 0;
+}
+
+.dot {
+    font-size: 22px;
+}
+
+.dot.green {
+    color: #17A589;
+}
+
+.dot.yellow {
+    color: rgba(255, 202, 40);
+    padding-left: 1rem;
+}
+
+.dot.red {
+    color: red;
+    padding-left: 1rem;
+}
+
+.trip-info {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    font-size: 15px;
+    display: flex;
+}
+
+.destination, .dates {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    flex: 1;
+    padding: 0.5rem 1rem;
+}
+
+.destination {
+    padding-right: 0.5rem;
+}
+
+.dates {
+    padding-left: 0.5rem;
+}
+
+.dates p {
+    padding-top: 2px;
+}
+
+.trip-info lightning-icon {
+    --sds-c-icon-color-foreground-default: #1A5276;
+}
+
+.activities-wrap {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+}
+
+.activity-tag {
+    padding: 0.125rem 0.8rem;
+    border-radius: 10px;
+    font-size: 12px;
+    color: white;
+    font-weight: 600;
+}
+
+.activity-tag.food {
+    background-color: #2E86C1;
+}
+
+.activity-tag.hiking {
+    background-color: #17A589;
+}
+
+.activity-tag.bars {
+    background-color: #FA5F55;
+}
+
+.activity-tag.sunsets {
+    background-color: #F39C12;
+}
+
+.activity-tag.parties {
+    background-color: #7D3C98;
+}
+
+.posts {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.post {
+    padding: 1rem;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    background: #F7F9F9;
+}
+
+.person-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.person-info .name {
+    font-weight: 600;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.post-text {
+    margin-top: 0.5rem;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.post-title {
+    font-size: 20px;
+    margin-top: 0.5rem;
+}
+
+.date-info {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.date span {
+    font-weight: 600;
+    margin-left: 0.25rem;
+}
+
+.post-since {
+    font-size: 13px;
+}
+
+.connect-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.join-btn {
+    background: white;
+    border: 2px solid #17A589;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-weight: 600;
+    width: 100%;
+    padding: 0.25rem 0.75rem;
+    font-size: 13px;
+}

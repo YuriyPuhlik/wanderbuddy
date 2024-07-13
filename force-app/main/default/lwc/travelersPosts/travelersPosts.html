@@ -1,0 +1,101 @@
+<template>
+    <div class="logo-container">
+        <div class="logo">
+            <p class="title">Posts</p>
+        </div>
+    </div>
+    <div class="trip-info">
+        <div class="destination">
+            <lightning-icon icon-name="utility:checkin" size="x-small"></lightning-icon>
+            <p>Lisbon, Portugal</p>
+        </div>
+        <div class="dates">
+            <lightning-icon icon-name="utility:event" size="x-small"></lightning-icon>
+            <p>Jul 17 - Jul 24</p>
+        </div>
+    </div>
+    <p class="dots">
+        <span class="dot green">•</span>
+        <span class="dot yellow">•</span>
+        <span class="dot red">•</span>
+    </p>
+    <div class="posts">
+        <div class="post">
+            <div class="person-info">
+                <img src={person1ImageUrl}>
+                <div class="details">
+                    <p class="name">Mark, 33</p>
+                    <p class="post-since">10m. ago</p>
+                </div>
+                <div class="connect-wrap">
+                    <button class="join-btn">Ask to join</button>
+                </div>
+            </div>
+            <p class="post-title">Let's go for a beer!</p>
+            <div class="date-info">
+                <lightning-icon icon-name="utility:event" size="x-small"></lightning-icon>
+                <p class="date">When: <span>on Jul 19</span></p>
+            </div>
+            <div class="post-text">
+                Hi! Does anybody want to go for a drink in a local bar tomorrow in the evening?
+            </div>
+            <div class="activities-wrap">
+                <div class="activity-tag parties">Parties</div>
+                <div class="activity-tag sunsets">Restaurants</div>
+                <div class="activity-tag bars">Bars</div>
+            </div>
+        </div>
+        <div class="post">
+            <div class="person-info">
+                <img src={person2ImageUrl}>
+                <div class="details">
+                    <p class="name">Emily, 26</p>
+                    <p class="post-since">2h. ago</p>
+                </div>
+                <div class="connect-wrap">
+                    <button class="join-btn">Ask to join</button>
+                </div>
+            </div>
+            <p class="post-title">Let's visit some museums!</p>
+            <div class="date-info">
+                <lightning-icon icon-name="utility:event" size="x-small"></lightning-icon>
+                <p class="date">When: <span>on Jul 18</span></p>
+            </div>
+            <div class="post-text">
+                Hi!
+                My name is Emily! I will be in Lisbon in a few weeks and want to go sightseeing with someone.
+                Also, local museums are on my list!
+                Let's go together?
+            </div>
+            <div class="activities-wrap">
+                <div class="activity-tag food">Sightseeing</div>
+                <div class="activity-tag hiking">Museums</div>
+            </div>
+        </div>
+        <div class="post">
+            <div class="person-info">
+                <img src={person3ImageUrl}>
+                <div class="details">
+                    <p class="name">Andrea, 28</p>
+                    <p class="post-since">8h. ago</p>
+                </div>
+                <div class="connect-wrap">
+                    <button class="join-btn">Ask to join</button>
+                </div>
+            </div>
+            <p class="post-title">Free voucher for a dinner!</p>
+            <div class="date-info">
+                <lightning-icon icon-name="utility:event" size="x-small"></lightning-icon>
+                <p class="date">When: <span>on Jul 20</span></p>
+            </div>
+            <div class="post-text">
+                Hi! Does anybody have a desire to have a dinner today? I have a free voucher for a second person in Cabaliero.
+            </div>
+            <div class="activities-wrap">
+                <div class="activity-tag food">Food</div>
+                <div class="activity-tag sunsets">Restaurants</div>
+                <div class="activity-tag bars">Bars</div>
+            </div>
+        </div>
+    </div>
+</template>
