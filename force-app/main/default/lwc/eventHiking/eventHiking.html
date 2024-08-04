@@ -1,0 +1,48 @@
+<template>
+    <div class="screen">
+        <div class="img-container">
+            <img src={hikeImgUrl}>
+        </div>
+        <div class="event-details">
+            <p class="title">2-day Hiking at Arrábida Park</p>
+            <div class="date">
+                <lightning-icon icon-name="utility:event" size="x-small"></lightning-icon>
+                <p>Sep 3 - Sep 4</p>
+            </div>
+            <div class="place">
+                <lightning-icon icon-name="utility:checkin" size="x-small"></lightning-icon>
+                <p>Arrábida Park</p>
+            </div>
+            <div class="members">
+                <lightning-icon icon-name="utility:groups" size="x-small"></lightning-icon>
+                <p>10-12 people</p>
+            </div>
+            <div class="organiser">
+                <lightning-icon icon-name="utility:orchestrator" size="x-small"></lightning-icon>
+                <p>Initiated by Alex</p>
+            </div>
+            <div class="description">
+                <p class="label">About event</p>
+                <p if:true={isCollapsed} class="content">
+                    <lightning-formatted-text value={shortDescription} linkify></lightning-formatted-text>       
+                    <span><a href="javascript:void(0);" onclick={expandDescription}>Show more</a></span>
+                </p>
+                <p if:false={isCollapsed} class="content">
+                    <lightning-formatted-text value={description} linkify></lightning-formatted-text>  
+                    <span><a href="javascript:void(0);" onclick={collapseDescription}>Show less</a></span>
+                </p>        
+            </div>
+        </div>
+        <div class="activities-wrap">
+            <div class="activity-tag hiking">Hiking</div>
+            <div class="activity-tag hiking">Nature</div>
+            <div class="activity-tag sunsets">Sunsets</div>
+        </div>
+        <div class="footer-section">
+            <div if:true={applied} class="applied-info">Applied</div>
+            <div if:true={approved} class="applied-info">Approved</div>
+            <div if:true={rejected} class="applied-info">Rejected</div>
+            <button if:true={canJoin} class="action-btn" onclick={handleJoin}>Join</button>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,108 @@
+.line {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.line-1 {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+lightning-input {
+    flex: 1;
+}
+
+.avatar-container {
+    display: flex;
+    justify-content: center;
+}
+
+.avatar-input {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.avatar-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.avatar-file-input {
+    display: none;
+}
+
+.avatar-icon {
+    fill: #0070d2;
+}
+
+.avatar-preview {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.avatar-label-text {
+    margin-top: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+
+.avatar-edit-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.date-of-birth-container {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+}
+
+.date-of-birth-dropdown {
+    flex: 1;
+}
+
+.submit-button-container {
+    position: fixed;
+    bottom: 20px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 40px); /* Adjust to ensure button does not overflow */
+}
+
+.action-btn {
+    background: #17A589;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+}

@@ -1,0 +1,14 @@
+.THIS {
+    max-width: 100%;
+}
+
+.THIS,
+.THIS c-global-search-results,
+.THIS .wrapper,
+.THIS [data-region-name="main"],
+.THIS [data-region-name="main"] > div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+}

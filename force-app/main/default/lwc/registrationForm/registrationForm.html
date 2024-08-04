@@ -1,0 +1,30 @@
+<template>
+    <div class="avatar-container">
+        <div class="avatar-input">
+            <label for="avatarUpload" class="avatar-label">
+                <lightning-icon icon-name="utility:photo" alternative-text="Upload Avatar" size="large" class="avatar-icon"></lightning-icon>
+                <input type="file" id="avatarUpload" accept="image/*" onchange={handleAvatarChange} class="avatar-file-input">
+            </label>
+            <img src={avatarUrl} class="avatar-preview" if:true={avatarUrl} />
+        </div>
+    </div>
+
+    <div class="line line-1">
+        <lightning-input label="First Name" placeholder="Enter first name" required value={firstName} onchange={handleInputChange} data-id="firstName"></lightning-input>
+        <lightning-input label="Last Name" placeholder="Enter last name" required value={lastName} onchange={handleInputChange} data-id="lastName"></lightning-input>
+    </div>
+   
+    <div class="line line-2">
+        <lightning-input label="Email" type="email" required value={email} onchange={handleInputChange} data-id="email" placeholder="Enter email"></lightning-input>
+    </div>
+
+    <div class="date-of-birth-container line line-3">
+        <lightning-combobox label="Date of Birth" placeholder="Day" required value={day} options={days} onchange={handleDateChange} data-id="day" class="date-of-birth-dropdown"></lightning-combobox>
+        <lightning-combobox variant="label-hidden" placeholder="Month" value={month} options={months} onchange={handleDateChange} data-id="month" class="date-of-birth-dropdown"></lightning-combobox>
+        <lightning-combobox variant="label-hidden" placeholder="Year" value={year} options={years} onchange={handleDateChange} data-id="year" class="date-of-birth-dropdown"></lightning-combobox>
+    </div>
+
+    <div class="submit-button-container">
+        <button class="action-btn" onclick={handleSubmit}>Submit</button>
+    </div>
+</template>

@@ -1,0 +1,103 @@
+.screen {
+    position: relative;
+}
+
+.event-details {
+    margin-top: 1rem;
+    padding: 0 0.5rem;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.date, .place, .members, .organiser {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    font-size: 15px;
+    align-items: center;
+}
+
+.description {
+    margin-top: 1rem;
+}
+
+.description .label {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.description lightning-formatted-text {
+    font-size: 14px;
+}
+
+.description a {
+    color: black;
+    font-weight: 600;
+    margin-left: 0.75rem;
+}
+
+.description .content {
+    padding: 0.75rem;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    background: #F7F9F9;
+}
+
+.footer-section {
+    position: absolute;
+    width: 100%;
+    margin-top: 14rem;
+}
+
+.action-btn {
+    background: #17A589;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.activities-wrap {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.activity-tag {
+    padding: 0.125rem 0.8rem;
+    border-radius: 10px;
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+}
+
+.activity-tag.food {
+    background-color: #2E86C1;
+}
+
+.activity-tag.hiking {
+    background-color: #17A589;
+}
+
+.activity-tag.bars {
+    background-color: #FA5F55;
+}
+
+.activity-tag.sunsets {
+    background-color: #F39C12;
+}
+
+.activity-tag.parties {
+    background-color: #A569BD;
+}
